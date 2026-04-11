@@ -22,9 +22,10 @@ in isolation.
 
 | Lecture | Instructor | Dates | Time | Location |
 |---------|------------|-------|------|----------|
-| CS4111  | Jason      | M, W  | TBD  | TBD      |
+| CS4111  | Jason      | M, W  | 2:00-3:15pm | McNulty Hall #106 |
 
-The time and room still need to be recovered from email or calendar history.
+Recovered from calendar records: recurring Monday/Wednesday meeting in McNulty
+Hall, room `#106`.
 
 ## Recovered Pages
 

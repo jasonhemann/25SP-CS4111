@@ -11,8 +11,10 @@ meeting_pattern:
   regular_days:
     - M
     - W
-  regular_time: "TBD"
-  regular_location: "TBD"
+  regular_time: "2:00-3:15pm"
+  regular_location: "McNulty Hall #106"
+  building: "McNulty Hall"
+  address: "McNulty Hall, South Orange Village, NJ 07079, USA"
   anomalies:
     - date: "2025-01-16"
       day: R
@@ -66,4 +68,3 @@ open_questions:
   - "exact office hours"
   - "formal late-work / attendance policy prose"
   - "final public wording of the project page"
-
