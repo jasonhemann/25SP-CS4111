@@ -10,42 +10,86 @@ from the surviving course repository. It should be treated as historically
 grounded, but not guaranteed identical to the exact public site text that
 existed during the semester.
 
-## Overview
+## What This Course Is About
 
-The course treated artificial intelligence broadly rather than as only modern
-LLM usage. The recovered materials show a mix of historical AI papers, logic
-and relational programming, grammars, interpreters, program synthesis,
-staging, neural learning, Prolog, game-tree search, and ASP, with an emphasis
-on integrating these ideas into real software systems.
+For our purposes, artificial intelligence was treated as competence exhibited
+by computer systems: methods by which machines can represent information,
+perceive aspects of their environment, and take actions toward goals. That is
+intentionally broader than the present habit of treating AI as synonymous only
+with large language models. Contemporary AI services and LLMs belonged in the
+course, but as one family of tools among many.
+
+The surviving opening lectures make the course motivation fairly clear. The
+point was not only to teach students how to call a fashionable API. It was to
+place current AI systems in a longer technical history of automated reasoning,
+formal logic, search, planning, learning, language, and decision-making, and
+to study how these techniques can be assembled into complete software systems.
+
+Examples of AI systems in this broader framing included:
+
+- search engines
+- recommendation systems
+- chatbots
+- speech recognition and text-to-speech systems
+- deduction and consequence engines
+- decision and optimization systems
+
+The early history material also appears to have emphasized the "AI effect":
+once a capability becomes routine, people stop calling it intelligence and
+start calling it "just computation." One purpose of the course was to resist
+that short memory by treating current systems as part of a longer and richer
+technical lineage.
 
 ## Course Objectives
 
-By the end of the course, students should have been able to:
+The course-organization lecture broke the course goals into four audiences:
+theoretical, practical, research, and programming.
 
-1. Explain and use several classical AI techniques and algorithms.
-2. Read and discuss classic AI research papers.
-3. Evaluate tradeoffs in AI system design.
-4. Build software that integrates multiple AI-related techniques into a
-   coherent system.
-5. Work with real APIs and deployment platforms, especially Azure-hosted
-   services.
+### Theoretical
+
+Success in the course meant being able to explain and use several classical AI
+techniques and algorithms, and to implement straightforward versions of them.
+
+### Practical
+
+Success in the course meant understanding how AI tools fit into larger
+software pipelines, and being able to evaluate the advantages and
+disadvantages of different system-design choices.
+
+### Research
+
+Success in the course meant being able to study, internalize, and discuss
+classic AI papers, and to explain them coherently to others.
+
+### Programming
+
+Success in the course meant being able to integrate different AI techniques,
+platforms, and tools into a coherent, working software artifact.
 
 ## Expectations
 
-- Students were expected to read technical material independently.
-- Students were expected to present and discuss research papers in class.
-- Students were expected to build working software artifacts, not only produce
-  reports.
-- The course assumed enough programming maturity to read documentation, work
-  against APIs, and debug medium-sized systems.
+The recovered course-organization notes are explicit about the expected
+background:
+
+- Students should be able to read and internalize research literature and
+  other complex technical material on their own.
+- Students should be able to design and build medium-sized software systems.
+- Students should be able to program against APIs and external platforms.
+- Students should be sufficiently fluent in at least one implementation
+  language to work through documentation, libraries, debugging, and deployment
+  issues across the software lifecycle.
+
+This was therefore not a "prompting tricks" course. It assumed enough
+technical maturity to move back and forth between theory, research papers,
+programming languages, cloud services, and actual implementation work.
 
 ## Main Topics
 
-- History and scope of AI
-- Classic AI papers
-- Azure and AI service platforms
-- miniKanren and relational programming
-- Languages, grammars, and evaluation
+- History, scope, and changing definitions of AI
+- Classic AI papers and student-led paper discussions
+- Azure platform work and API-oriented AI development
+- miniKanren, relational programming, and logic-as-programming
+- Languages, grammars, evaluation, and interpreters
 - Program synthesis and staging
 - Neural networks, learning, and backpropagation
 - Prolog, DCGs, and declarative debugging
@@ -61,7 +105,8 @@ By the end of the course, students should have been able to:
 
 ## Grading
 
-Recovered grading weights:
+The surviving gradebook and grade-calculation notes give the following
+breakdown:
 
 - Final Project: 30%
 - Homeworks: 30%
@@ -77,6 +122,10 @@ Recovered evaluated coursework:
 - two miniKanren assignments
 - one Prolog assignment
 - one final project
+
+The contemporaneous grading note also states that the final project was meant
+to loom larger than the other work because it was the longest-running and most
+comprehensive assignment of the semester.
 
 ## Communication
 
