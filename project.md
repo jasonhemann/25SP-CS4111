@@ -1,0 +1,72 @@
+---
+title: Final Project
+layout: single
+toc: true
+toc_label: "Project"
+---
+
+This page reconstructs the Spring 2025 final project in a publication-safe
+form. The surviving records make clear that the course project was meant to be
+an integrated, deployed AI system with speech, language understanding,
+retrieval, and text-to-speech components.
+
+## Project Summary
+
+Build a private web application that:
+
+1. takes a spoken description of a book,
+2. transcribes the request,
+3. decides whether the description is specific enough to identify the target,
+4. asks a follow-up question when needed,
+5. retrieves the text from an authorized corpus or course-provided backend,
+6. safely unpacks or normalizes the retrieved file, and
+7. reads the result aloud using the student's own synthesized voice or a close
+   approved approximation.
+
+## Expected Components
+
+- Browser-based or web-app voice input
+- Speech-to-text
+- LLM or equivalent reasoning component for disambiguation
+- Clarification dialogue
+- Retrieval backend
+- Safe extraction / normalization pipeline
+- Text-to-speech
+- Azure-backed deployment or infrastructure
+
+## What the Course Evidence Suggests
+
+The grading notes and presentation notes indicate that the project was judged
+substantially on integration and infrastructure, not only on model demos.
+Common failure points included:
+
+- no working fully agentic component
+- no working cloned voice end-to-end
+- local-only implementations without a real web front end
+- incomplete retrieval or file-handling logic
+
+## Sample Test Prompts
+
+Recovered sample prompts included:
+
+- "Wolf Story by William McCleery"
+- "The Dolls' House by Rumer Godden"
+- "Twig by Elizabeth Orton Jones"
+- "The Twenty-One Balloons by William Pène du Bois"
+- "Emil is sedated with laced chocolate and robbed on a train..."
+- "15th century Poland, alchemy, the Philosopher's Stone..."
+
+These make it clear that the system was supposed to handle both exact titles
+and vague natural-language descriptions.
+
+## Deployment
+
+The surviving notes strongly suggest that Azure deployment was part of the
+intended project scope, even though not every student completed that part.
+
+## Reconstruction Note
+
+For a public rebuilt site, this page deliberately describes the retrieval
+component in lawful terms. If you want the historically literal private note,
+keep that in the reconstruction repository rather than the public site text.
+

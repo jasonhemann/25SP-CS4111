@@ -1,0 +1,29 @@
+# main links
+main:
+  - title: "Instructor"
+    url: /instructor/
+  - title: "Schedule"
+    url: /schedule/
+  - title: "Syllabus"
+    url: /syllabus/
+  - title: "Project"
+    url: /project/
+
+# sidebar links
+sidebar-site-map:
+  - title: "Instructor"
+    url: /instructor/
+  - title: "Schedule"
+    url: /schedule/
+  - title: "Syllabus"
+    url: /syllabus/
+  - title: "Assignments"
+    url: /assignments/
+  - title: "Readings"
+    url: /readings/
+  - title: "Resources"
+    url: /resources/
+  - title: "Final Project"
+    url: /project/
+  - title: "GitHub"
+    url: "https://github.com/jasonhemann/25SP-CS4111"

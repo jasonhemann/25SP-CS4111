@@ -1,0 +1,691 @@
+# Reconstructed from local course artifacts.
+# Compatible with the schedule page pattern used in newer course sites.
+
+first_week_of_year_offset: 1
+semester_start: "2025-01-12T00:00:00-06:00"
+semester_start_week: 3
+dst_start_week: 10
+dst_end_week: 44
+
+weeks:
+  - week_offset: 0
+    homework: []
+    deliverables_due: []
+    sessions:
+      - day: R
+        title: "Class cancelled (out of town)"
+        topics: []
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts: []
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+
+  - week_offset: 1
+    homework: []
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "Course organization, topics, and structure"
+        topics:
+          - desc: "Broad framing of AI beyond only contemporary LLMs"
+          - desc: "Course objectives: theoretical, practical, research, and programming"
+          - desc: "Major themes: Azure, ConceptNet, logic programming, SAT/SMT"
+        pre_readings:
+          - title: "Course organization notes"
+            source_path: "lectures/course-organization-topics-and-structure.org"
+        videos: []
+        extra_resources:
+          - title: "OpenAI Platform"
+            link: "https://platform.openai.com/"
+          - title: "ConceptNet"
+            link: "https://conceptnet.io/"
+        source_artifacts:
+          - "lectures/course-organization-topics-and-structure.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/course-organization-topics-and-structure.org"
+
+      - day: W
+        title: "Pre-history of artificial intelligence"
+        topics:
+          - desc: "Origins of AI in automated mathematics, theorem proving, and related early work"
+        pre_readings:
+          - title: "History and present state of Artificial Intelligence"
+            source_path: "lectures/history-of-artificial-intelligence.org"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/history-of-artificial-intelligence.org"
+          - "lectures/history-of-artificial-intelligence.pdf"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/history-of-artificial-intelligence.org"
+
+  - week_offset: 2
+    homework: []
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "AI from the 1940s to the 1980s: the strands together"
+        topics:
+          - desc: "Early developments and foundational systems"
+          - desc: "How separate research strands began to converge"
+        pre_readings:
+          - title: "Early developments and highlights"
+            source_path: "lectures/early-developments-and-highlights.org"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/early-developments-and-highlights.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/early-developments-and-highlights.org"
+
+      - day: W
+        title: "Expert systems and AI winters"
+        topics:
+          - desc: "Expert systems"
+          - desc: "The AI winters of the 1980s and 1990s"
+        pre_readings:
+          - title: "Expert systems and winters notes"
+            source_path: "lectures/expert-systems-and-winters.org"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/expert-systems-and-winters.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/expert-systems-and-winters.org"
+
+  - week_offset: 3
+    homework:
+      - title: "Student paper presentation assignment"
+        out: M
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/AI-reading-list.org"
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "Student presentation assignment"
+        topics:
+          - desc: "Classic AI paper selection"
+          - desc: "Presentation expectations"
+        pre_readings:
+          - title: "Reading list"
+            source_path: "assignments/AI-reading-list.org"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "assignments/AI-reading-list.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/AI-reading-list.org"
+
+      - day: W
+        title: "Introduction to miniKanren"
+        topics:
+          - desc: "Core miniKanren ideas and first relational programming examples"
+          - desc: "Running relations and understanding simple goals"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "in-class-examples/2025-02-05-appo.rkt"
+        confidence: medium
+        evidence:
+          - "lectures/lectures.org_archive"
+          - "in-class-examples/2025-02-05-appo.rkt"
+
+  - week_offset: 4
+    homework:
+      - title: "Azure pre-learning modules"
+        out: M
+        due_date: "2025-02-26"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/azure-pre-learning.org"
+      - title: "miniKanren I"
+        out: W
+        due_date: "2025-02-19"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/intro-minikanren/hw1.rkt"
+      - title: "Presentation evaluation"
+        out: W
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/peer-evaluation-instructions.md"
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "Predicate Logic as a Programming Language; declarative arithmetic"
+        topics:
+          - desc: "Instructor example paper presentation on Kowalski"
+          - desc: "Predicate logic as a programming language"
+          - desc: "Declarative arithmetic"
+        pre_readings:
+          - title: "Predicate Logic as a Programming Language"
+            link: "https://www.doc.ic.ac.uk/~rak/papers/IFIP74.pdf"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "assignments/AI-reading-list.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/lectures.org_archive"
+          - "assignments/AI-reading-list.org"
+
+      - day: W
+        title: "Licklider papers and communication with computers"
+        topics:
+          - desc: "Man-Computer Symbiosis / The Computer as a Communication Device"
+          - desc: "Joseph presentation"
+          - desc: "miniKanren I assigned and peer evaluations introduced"
+        pre_readings:
+          - title: "Licklider papers"
+            link: "http://memex.org/licklider.pdf"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "assignments/AI-reading-list.org"
+          - "assignments/intro-minikanren/hw1.rkt"
+          - "lectures/peer-evaluation-instructions.md"
+          - "in-class-examples/typeo.rkt"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/AI-reading-list.org"
+          - "assignments/intro-minikanren/hw1.rkt"
+
+  - week_offset: 5
+    homework:
+      - title: "Presentation evaluation"
+        out: M
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+      - title: "Presentation evaluation"
+        out: W
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+    deliverables_due:
+      - title: "miniKanren I"
+        day: W
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/intro-minikanren/hw1.rkt"
+    sessions:
+      - day: M
+        title: "General Problem-Solving Program"
+        topics:
+          - desc: "Chris presentation on Newell, Shaw, and Simon"
+          - desc: "Search and problem solving in early AI"
+        pre_readings:
+          - title: "Report on a General Problem-Solving Program"
+            link: "http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-1584_Report_On_A_General_Problem-Solving_Program_Feb59.pdf"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "assignments/AI-reading-list.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/AI-reading-list.org"
+
+      - day: W
+        title: "Semantic networks and what is in a link"
+        topics:
+          - desc: "Jonathan presentation on Woods"
+          - desc: "Foundations for semantic networks"
+          - desc: "miniKanren I due"
+        pre_readings:
+          - title: "What's in a Link? Foundations for Semantic Networks"
+            link: "https://courses.cs.umbc.edu/471/papers/whatsInALink.pdf"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "assignments/AI-reading-list.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/AI-reading-list.org"
+
+  - week_offset: 6
+    homework:
+      - title: "Presentation evaluation"
+        out: M
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+    deliverables_due:
+      - title: "Azure pre-learning modules"
+        day: W
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/azure-pre-learning.org"
+    sessions:
+      - day: M
+        title: "Theorem proving and the resolution principle"
+        topics:
+          - desc: "Brysen presentation on Robinson papers"
+          - desc: "Automated theorem proving"
+          - desc: "Resolution principle"
+        pre_readings:
+          - title: "Theorem Proving on a Computer / A Machine-oriented Logic Based on the Resolution Principle"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "assignments/AI-reading-list.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/AI-reading-list.org"
+
+      - day: W
+        title: "Languages and grammars"
+        topics:
+          - desc: "Languages, grammars, and formal structure"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "in-class-examples/var-occurs-bound.rkt"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "in-class-examples/var-occurs-bound.rkt"
+
+  - week_offset: 7
+    homework: []
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "No class (Spring Break)"
+        topics: []
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts: []
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+
+      - day: W
+        title: "No class (Spring Break)"
+        topics: []
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts: []
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+
+  - week_offset: 8
+    homework:
+      - title: "miniKanren II / Dyck languages"
+        out: M
+        due_date: "2025-03-17"
+        confidence: medium
+        evidence:
+          - "lectures/lectures.org"
+          - "in-class-examples/begin-grammars-production.rkt"
+      - title: "Final Project"
+        out: W
+        due_date: "2025-04-30"
+        confidence: medium
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/final-project/final-project-description.url"
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "Pattern matching and functions over syntax"
+        topics:
+          - desc: "Match patterns"
+          - desc: "BNF grammar and evaluation-semantics rules"
+          - desc: "Functions over programming-language syntax"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "in-class-examples/2025-03-10-eval-expro.rkt"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/lectures.org_archive"
+          - "in-class-examples/2025-03-10-eval-expro.rkt"
+
+      - day: W
+        title: "Final project announcement and in-class description"
+        topics:
+          - desc: "Full project description explained in class"
+          - desc: "System integration expectations"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "assignments/final-project/final-project-description.url"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/lectures.org_archive"
+
+  - week_offset: 9
+    homework: []
+    deliverables_due:
+      - title: "miniKanren II / Dyck languages"
+        day: M
+        confidence: medium
+        evidence:
+          - "lectures/lectures.org"
+    sessions:
+      - day: M
+        title: "Functional evaluators"
+        topics:
+          - desc: "Evaluation as interpretation"
+          - desc: "Building evaluators over syntax"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "in-class-examples/2025-03-17-microKanren.rkt"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/lectures.org_archive"
+
+      - day: W
+        title: "Program synthesis techniques"
+        topics:
+          - desc: "Synthesis ideas from relational and logic programming"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "in-class-examples/difference-list.rkt"
+          - "in-class-examples/append-with-difference-list.rkt"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+
+  - week_offset: 10
+    homework: []
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "microKanren small-step semantics"
+        topics:
+          - desc: "Student presentation on microKanren evaluation semantics"
+          - desc: "Operational behavior of the core language"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "in-class-examples/2025-03-17-microKanren.rkt"
+        confidence: medium
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/lectures.org_archive"
+
+      - day: W
+        title: "Program staging"
+        topics:
+          - desc: "Functional program staging"
+          - desc: "Improvements obtained by staging"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/notes-on-learning-videos.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/lectures.org_archive"
+
+  - week_offset: 11
+    homework: []
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "Staging relational interpreters"
+        topics:
+          - desc: "Staged miniKanren"
+          - desc: "Relational interpreters under staging"
+        pre_readings:
+          - title: "Staging relational interpreters"
+            source_path: "lectures/staging-relational-interpreters.org"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/staging-relational-interpreters.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/lectures.org_archive"
+          - "lectures/staging-relational-interpreters.org"
+
+      - day: W
+        title: "Neural networks, learning, and backpropagation"
+        topics:
+          - desc: "Feed-forward neural networks"
+          - desc: "Learning and backpropagation"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/notes-on-learning-videos.org"
+        confidence: medium
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/notes-on-learning-videos.org"
+
+  - week_offset: 12
+    homework: []
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "Prolog introduction"
+        topics:
+          - desc: "Prolog basics"
+          - desc: "Related Power of Prolog videos"
+        pre_readings:
+          - title: "Prolog intro notes"
+            source_path: "lectures/prolog-intro.org"
+        videos:
+          - title: "The Power of Prolog"
+            link: "https://www.youtube.com/@ThePowerOfProlog"
+        extra_resources:
+          - title: "The Power of Prolog site"
+            link: "https://www.metalevel.at/prolog"
+        source_artifacts:
+          - "lectures/prolog-intro.org"
+          - "in-class-examples/prolog_interaction.repl"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/prolog-intro.org"
+
+      - day: W
+        title: "Definite clause grammars"
+        topics:
+          - desc: "DCGs"
+          - desc: "Prolog I assigned"
+        pre_readings:
+          - title: "DCGs notes"
+            source_path: "lectures/DCGs.org"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/DCGs.org"
+          - "assignments/intro-prolog/prolog-assignment-1.org"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/DCGs.org"
+          - "assignments/intro-prolog/prolog-assignment-1.org"
+
+  - week_offset: 13
+    homework:
+      - title: "Prolog Assignment 1"
+        out: W
+        due_date: "2025-04-16"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/intro-prolog/prolog-assignment-1.org"
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "Minimax and alpha-beta pruning"
+        topics:
+          - desc: "Game-tree search"
+          - desc: "Alpha-beta pruning"
+        pre_readings:
+          - title: "Minimax notes"
+            source_path: "lectures/minimax.org"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/minimax.org"
+          - "in-class-examples/2025-04-14-alpha-beta.rkt"
+          - "in-class-examples/2025-04-15-drawing-min-max.rkt"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/minimax.org"
+
+      - day: W
+        title: "Declarative debugging, voice cloning, and TTS"
+        topics:
+          - desc: "Declarative debugging techniques"
+          - desc: "Voice cloning and text-to-speech"
+          - desc: "Prolog I due"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts: []
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/lectures.org_archive"
+
+  - week_offset: 14
+    homework: []
+    deliverables_due:
+      - title: "Prolog Assignment 1"
+        day: W
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "assignments/intro-prolog/prolog-assignment-1.org"
+    sessions:
+      - day: M
+        title: "No class (Easter)"
+        topics: []
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts: []
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+
+      - day: W
+        title: "Levenshtein distance, tabling, indexing, and dif/2"
+        topics:
+          - desc: "Levenshtein distance"
+          - desc: "Tabling and indexing"
+          - desc: "Using dif/2"
+        pre_readings:
+          - title: "Tabling notes"
+            source_path: "lectures/tabling.org"
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "lectures/tabling.org"
+          - "tabling-delimited-control.pdf"
+          - "in-class-examples/levenshtein.pl"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/tabling.org"
+
+  - week_offset: 15
+    homework: []
+    deliverables_due:
+      - title: "Final Project"
+        day: W
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "grades/final-project/presentation-notes.txt"
+    sessions:
+      - day: M
+        title: "ASP and ASP Chef"
+        topics:
+          - desc: "Answer set programming"
+          - desc: "Using ASP Chef"
+        pre_readings:
+          - title: "ASP notes"
+            source_path: "lectures/ASP-notes.org"
+        videos: []
+        extra_resources:
+          - title: "ASP Chef"
+            link: "https://asp-chef.alviano.net/"
+        source_artifacts:
+          - "lectures/ASP-notes.org"
+          - "assignments/asp-projects/flights/README.md"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "lectures/ASP-notes.org"
+
+      - day: W
+        title: "Final project presentations"
+        topics:
+          - desc: "Final project presentations"
+          - desc: "Final project due"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "grades/final-project/presentation-notes.txt"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"
+          - "grades/final-project/presentation-notes.txt"
+
+  - week_offset: 16
+    homework: []
+    deliverables_due: []
+    sessions:
+      - day: M
+        title: "Final project presentations"
+        topics:
+          - desc: "Continuation of final project presentations"
+        pre_readings: []
+        videos: []
+        extra_resources: []
+        source_artifacts:
+          - "grades/final-project/presentation-notes.txt"
+        confidence: high
+        evidence:
+          - "lectures/lectures.org"

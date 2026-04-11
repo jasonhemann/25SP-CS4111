@@ -1,0 +1,98 @@
+course_title: "Artificial Intelligence"
+term: "Spring 2025"
+confidence: medium
+
+description: >-
+  This course approached artificial intelligence broadly rather than narrowly
+  as only modern LLMs. It appears to have combined historical AI papers,
+  relational and logic programming, grammars, interpreters, program synthesis,
+  staging, neural learning, Prolog, search/game-playing, and ASP, with an
+  emphasis on integrating these techniques into complete software systems.
+
+course_objectives:
+  - "Explain and use classical AI techniques and algorithms"
+  - "Integrate AI tools into practical software pipelines"
+  - "Evaluate tradeoffs in AI system design"
+  - "Read, internalize, and present classic AI research papers"
+  - "Build medium-sized AI software systems using real platforms and APIs"
+
+prerequisites_and_expectations:
+  - "Ability to read and internalize research literature"
+  - "Ability to design and build medium-sized software systems"
+  - "Ability to program against APIs"
+  - "Comfort with at least one preferred implementation language"
+
+major_topic_areas:
+  - title: "History and scope of AI"
+    confidence: high
+  - title: "Classic AI papers and student presentations"
+    confidence: high
+  - title: "Azure platform work and API-based AI development"
+    confidence: high
+  - title: "miniKanren and relational programming"
+    confidence: high
+  - title: "Languages, grammars, evaluation, and interpreters"
+    confidence: high
+  - title: "Program synthesis and staging"
+    confidence: high
+  - title: "Neural networks, learning, and backpropagation"
+    confidence: medium
+  - title: "Prolog, DCGs, and declarative debugging"
+    confidence: high
+  - title: "Minimax and alpha-beta pruning"
+    confidence: high
+  - title: "ASP and ASP Chef"
+    confidence: high
+
+texts_and_materials:
+  - title: "The Reasoned Schemer, 2nd edition"
+    confidence: high
+  - title: "Selected classic AI papers"
+    confidence: high
+  - title: "Selected Prolog / logic programming videos and notes"
+    confidence: high
+  - title: "Decision Procedures (selected chapters)"
+    confidence: medium
+
+assessments:
+  evaluated_coursework:
+    - title: "Azure training assignments"
+      count: 4
+    - title: "Paper presentation"
+      count: 1
+    - title: "Student presentation evaluations"
+      count: 3
+    - title: "miniKanren assignments"
+      count: 2
+    - title: "Prolog assignment"
+      count: 1
+    - title: "Final project"
+      count: 1
+
+  weights:
+    final_project: 30
+    homeworks: 30
+    paper_presentation: 25
+    peer_evaluations: 10
+    online_trainings: 5
+
+peer_evaluation_policy:
+  summary: >-
+    Students were asked to email an evaluation of a peer presentation by the
+    end of the afternoon of the following day, covering both the ideas and the
+    presentation itself.
+  source_path: "lectures/peer-evaluation-instructions.md"
+  confidence: high
+
+missing_or_needing_confirmation:
+  - "formal attendance policy"
+  - "formal late-work policy"
+  - "whether there was a final exam section in any earlier draft"
+  - "meeting time and room"
+
+evidence:
+  - "lectures/course-organization-topics-and-structure.org"
+  - "syllabus/4111-syllabus.org"
+  - "syllabus/final-grades-assessment-basis.org"
+  - "grades/final-grades.org"
+

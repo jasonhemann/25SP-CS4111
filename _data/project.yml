@@ -1,0 +1,98 @@
+title: "Final Project"
+subtitle: "Spoken-book AI assistant / reader"
+assigned: "2025-03-12"
+due: "2025-04-30"
+presentation_dates:
+  - "2025-04-30"
+  - "2025-05-05"
+confidence: medium
+
+reconstructed_concept:
+  summary: >-
+    Build a private web application that takes a spoken description of a book,
+    turns it into text, decides whether the request is specific enough, asks a
+    follow-up question if necessary using the student's own synthesized voice,
+    retrieves the target text from a lawful or course-provided backend, safely
+    unpacks or normalizes the file, and reads the result aloud in the student's
+    own voice.
+  notes:
+    - "This phrasing is a publication-safe reconstruction."
+    - "Your later recollection mentioned an IRC-based retrieval backend; keep that as a private note if needed, but I would not publish it as the public assignment framing."
+
+requirements:
+  - "Speech-to-text from microphone input"
+  - "Natural-language understanding of an imprecise spoken description"
+  - "Clarification question when the request is ambiguous"
+  - "Text-to-speech in the student's own voice, or a clear approximation if approved voice cloning is unavailable"
+  - "Backend retrieval of a book/text from an authorized corpus or a course-provided mock service"
+  - "Sandboxed extraction / conversion of downloaded text artifacts"
+  - "Playable audio output of the recovered text"
+  - "Deployment using Azure-hosted services or Azure-backed infrastructure"
+
+likely_architecture:
+  frontend:
+    - "private login-protected website"
+    - "microphone capture"
+    - "status / clarification UI"
+    - "audio playback"
+  backend:
+    - "speech-to-text"
+    - "LLM-based disambiguation / agent logic"
+    - "retrieval subsystem"
+    - "sandboxed extraction"
+    - "text-to-speech / voice synthesis"
+  deployment:
+    - "Azure app service, Azure functions, containers, or equivalent"
+
+evaluation_focus:
+  - "end-to-end integration"
+  - "deployment and infrastructure"
+  - "clarity of agent behavior"
+  - "safe handling of external files"
+  - "voice interaction quality"
+
+sample_test_prompts:
+  - title: "Wolf Story"
+    prompt: "Wolf Story by William McCleery"
+  - title: "The Dolls' House"
+    prompt: "The Dolls' House by Rumer Godden"
+  - title: "Twig"
+    prompt: "Twig by Elizabeth Orton Jones"
+  - title: "The Twenty-One Balloons"
+    prompt: "The Twenty-One Balloons by William Pène du Bois"
+  - title: "Just William"
+    prompt: "Just William by Richmal Crompton"
+  - title: "Hot-air-balloon clue"
+    prompt: "Professor William Waterman Sherman who crossed the Pacific in his hot air balloon only to land on the isolated island of Krakatoa"
+  - title: "Emil and the Detectives"
+    prompt: "Emil and the Detectives by Erich Kästner"
+  - title: "Emil clue"
+    prompt: "Emil is sedated with laced chocolate and robbed on a train of his grandmother's money he doesn't want to let his family down so he sets out to solve the crime himself"
+  - title: "The Trumpeter of Krakow"
+    prompt: "The Trumpeter of Krakow"
+  - title: "Trumpeter clue"
+    prompt: "15th century Poland, alchemy, the Philosopher's Stone, intrigue and a villain named Peter the Button Face"
+  - title: "Hitty, Her First Hundred Years"
+    prompt: "Hitty, Her First Hundred Years by Rachel Field"
+  - title: "Hitty clue"
+    prompt: "Novel told from a doll's point of view; Hitty travels the globe and gets lost and found in unusual places"
+
+presentation_retro:
+  strongest_notes:
+    - "Joseph: Spokenbook; strong infrastructure and services deployment"
+    - "Brysen: looked put together and impressive"
+  weaker_notes:
+    - "Jonathan: voice cloning and agent pieces incomplete"
+    - "Chris: local-only, retrieval and integration incomplete"
+  common_failure_modes:
+    - "No one completed the fully agentic AI component"
+    - "No one had cloned voice working end-to-end"
+
+evidence:
+  - "lectures/lectures.org"
+  - "lectures/lectures.org_archive"
+  - "assignments/final-project/final-project-description.url"
+  - "grades/final-project/presentation-notes.txt"
+  - "grades/final-project/final-project-test-examples.txt"
+  - "user recollection supplied in chat on 2026-04-10"
+
