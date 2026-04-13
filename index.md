@@ -6,9 +6,7 @@ sidebar:
   nav: sidebar-site-map
 ---
 
-This site is a retroactive reconstruction of the Spring 2025 offering of
-Artificial Intelligence. It is built from the surviving course repository,
-assignment files, lecture notes, gradebook artifacts, and related materials.
+This site contains materials for Spring 2025 Artificial Intelligence.
 
 ## Course
 
@@ -23,15 +21,3 @@ in isolation.
 | Lecture | Instructor | Dates | Time | Location |
 |---------|------------|-------|------|----------|
 | CS4111  | Jason      | M, W  | 2:00-3:15pm | McNulty Hall #106 |
-
-Recovered from calendar records: recurring Monday/Wednesday meeting in McNulty
-Hall, room `#106`.
-
-## Recovered Pages
-
-- [Schedule]({{ site.baseurl }}/schedule/)
-- [Syllabus]({{ site.baseurl }}/syllabus/)
-- [Assignments]({{ site.baseurl }}/assignments/)
-- [Readings]({{ site.baseurl }}/readings/)
-- [Resources]({{ site.baseurl }}/resources/)
-- [Final Project]({{ site.baseurl }}/project/)

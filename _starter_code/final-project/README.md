@@ -1,9 +1,9 @@
----
-title: Final Project
-layout: single
-toc: true
-toc_label: "Project"
----
+# Final Project
+
+This file is the canonical reconstructed project handout for Spring 2025
+Artificial Intelligence.
+
+## Summary
 
 Build a private web application that:
 
@@ -40,7 +40,7 @@ Common failure points included:
 
 ## Sample Test Prompts
 
-Sample prompts included:
+Recovered sample prompts included:
 
 - "Wolf Story by William McCleery"
 - "The Dolls' House by Rumer Godden"
@@ -54,10 +54,12 @@ and vague natural-language descriptions.
 
 ## Deployment
 
-Azure deployment appears to have been part of the intended project scope, even
-though not every student completed that part.
+The surviving notes strongly suggest that Azure deployment was part of the
+intended project scope, even though not every student completed that part.
 
-## Repository Copy
+## Note on Public Framing
 
-A markdown copy of this handout is also kept in the repository under
-`_starter_code/final-project/README.md`.
+For a public rebuilt course site, the retrieval component is described here in
+lawful terms. If you want a historically literal private note for your own
+records, keep that in the reconstruction materials rather than the public site.
+

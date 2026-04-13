@@ -5,27 +5,27 @@ toc: true
 toc_label: "Syllabus Contents"
 ---
 
-This page reconstructs the syllabus for Spring 2025 Artificial Intelligence
-from the surviving course repository. It should be treated as historically
-grounded, but not guaranteed identical to the exact public site text that
-existed during the semester.
+This syllabus contains policies and expectations for Spring 2025 Artificial
+Intelligence. Please read it carefully. Policies and expectations in this
+course may be modified at any time by announcement in class, by email, or by
+changes to this page.
 
 ## What This Course Is About
 
-For our purposes, artificial intelligence was treated as competence exhibited
-by computer systems: methods by which machines can represent information,
-perceive aspects of their environment, and take actions toward goals. That is
-intentionally broader than the present habit of treating AI as synonymous only
-with large language models. Contemporary AI services and LLMs belonged in the
-course, but as one family of tools among many.
+For our purposes, artificial intelligence is competence exhibited by computer
+systems: methods by which machines can represent information, perceive aspects
+of their environment, and take actions toward goals. That is intentionally
+broader than the present habit of treating AI as synonymous only with large
+language models. Contemporary AI services and LLMs belong in the course, but
+as one family of tools among many.
 
-The surviving opening lectures make the course motivation fairly clear. The
-point was not only to teach students how to call a fashionable API. It was to
-place current AI systems in a longer technical history of automated reasoning,
-formal logic, search, planning, learning, language, and decision-making, and
-to study how these techniques can be assembled into complete software systems.
+The point of this course is not merely to teach you how to call a fashionable
+API. We place current AI systems in a longer technical history of automated
+reasoning, formal logic, search, planning, learning, language, and
+decision-making, and we study how these techniques can be assembled into
+complete software systems.
 
-Examples of AI systems in this broader framing included:
+Examples of AI systems in this broader framing include:
 
 - search engines
 - recommendation systems
@@ -34,42 +34,40 @@ Examples of AI systems in this broader framing included:
 - deduction and consequence engines
 - decision and optimization systems
 
-The early history material also appears to have emphasized the "AI effect":
-once a capability becomes routine, people stop calling it intelligence and
-start calling it "just computation." One purpose of the course was to resist
-that short memory by treating current systems as part of a longer and richer
-technical lineage.
+This course also takes seriously the "AI effect": once a capability becomes
+routine, people stop calling it intelligence and start calling it "just
+computation." One purpose of the course is to resist that short memory by
+treating current systems as part of a longer and richer technical lineage.
 
 ## Course Objectives
 
-The course-organization lecture broke the course goals into four audiences:
-theoretical, practical, research, and programming.
+This course has four overlapping goals: theoretical, practical, research, and
+programming.
 
 ### Theoretical
 
-Success in the course meant being able to explain and use several classical AI
-techniques and algorithms, and to implement straightforward versions of them.
+You should be able to explain and use several classical AI techniques and
+algorithms, and to implement straightforward versions of them.
 
 ### Practical
 
-Success in the course meant understanding how AI tools fit into larger
-software pipelines, and being able to evaluate the advantages and
-disadvantages of different system-design choices.
+You should understand how AI tools fit into larger software pipelines, and be
+able to evaluate the advantages and disadvantages of different
+system-design choices.
 
 ### Research
 
-Success in the course meant being able to study, internalize, and discuss
-classic AI papers, and to explain them coherently to others.
+You should be able to study, internalize, and discuss classic AI papers, and
+to explain them coherently to others.
 
 ### Programming
 
-Success in the course meant being able to integrate different AI techniques,
-platforms, and tools into a coherent, working software artifact.
+You should be able to integrate different AI techniques, platforms, and tools
+into a coherent, working software artifact.
 
 ## Expectations
 
-The recovered course-organization notes are explicit about the expected
-background:
+This course assumes the following background:
 
 - Students should be able to read and internalize research literature and
   other complex technical material on their own.
@@ -79,9 +77,9 @@ background:
   language to work through documentation, libraries, debugging, and deployment
   issues across the software lifecycle.
 
-This was therefore not a "prompting tricks" course. It assumed enough
-technical maturity to move back and forth between theory, research papers,
-programming languages, cloud services, and actual implementation work.
+This is not a "prompting tricks" course. It assumes enough technical maturity
+to move back and forth between theory, research papers, programming
+languages, cloud services, and actual implementation work.
 
 ## Main Topics
 
@@ -98,15 +96,28 @@ programming languages, cloud services, and actual implementation work.
 
 ## Readings and Materials
 
+Primary materials for the course include:
+
 - *The Reasoned Schemer*, 2nd edition
 - selected classic AI papers
 - Prolog and logic programming videos and notes
 - selected decision-procedure / logic-programming materials
 
+Additional readings and links will be posted with the schedule and
+assignments.
+
+## Evaluated Coursework
+
+- one student paper presentation
+- Azure pre-learning modules
+- two miniKanren assignments
+- three student presentation evaluations
+- one Prolog assignment
+- one final project
+
 ## Grading
 
-The surviving gradebook and grade-calculation notes give the following
-breakdown:
+The course grade is based on the following breakdown:
 
 - Final Project: 30%
 - Homeworks: 30%
@@ -114,40 +125,18 @@ breakdown:
 - Peer Evaluations: 10%
 - Online Trainings: 5%
 
-Recovered evaluated coursework:
+The final project is the longest-running and most comprehensive assignment of
+the semester, and it is weighted accordingly.
 
-- Azure training assignments
-- one paper presentation
-- three peer evaluations
-- two miniKanren assignments
-- one Prolog assignment
-- one final project
+## Contact
 
-The contemporaneous grading note also states that the final project was meant
-to loom larger than the other work because it was the longest-running and most
-comprehensive assignment of the semester.
+- Personal, private (FERPA, etc) messages: [{{ site.data.authors[site.author].emailaddr }}](mailto:{{ site.data.authors[site.author].emailaddr }}).
+  You should expect a response within 48 hours.
 
-## Communication
+A great regular way to reach out for help is via our
+[office hours]({{ site.baseurl }}/people/).
 
-- Primary contact: [{{ site.author.emailaddr }}](mailto:{{ site.author.emailaddr }})
-- Exact office-hours details for this course have not yet been recovered.
-
-## Policies and Caveats
-
-The exact public wording of late-work, attendance, and make-up policies has not
-yet been recovered. If those details matter for the rebuilt site, the next
-best sources are email, calendar records, or earlier syllabus drafts.
-
-## Reconstruction Notes
-
-The structured reconstruction data that backs this page lives in
-`_data/syllabus.yml`. The main evidence comes from:
-
-- `lectures/course-organization-topics-and-structure.org`
-- `syllabus/4111-syllabus.org`
-- `syllabus/final-grades-assessment-basis.org`
-- `grades/final-grades.org`
-
+## Academic Integrity
 
 When in doubt, ask your instructor. Violations of academic integrity
 will lead to a score of zero on the offending assignment and likely an
@@ -155,7 +144,7 @@ immediately failing grade for the course.
 
 ### ChatGPT, Copilot, and GAI tools
 
-This being new, I felt compelled to add a subsection. ChatGPT and
+This being new, I feel compelled to add a subsection. ChatGPT and
 other code generation tools utilize advanced machine learning models
 to assist users in generating code, answering queries, and providing
 solutions to various problems. I will have exercises where we practice
