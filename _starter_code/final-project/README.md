@@ -1,7 +1,7 @@
 # Final Project
 
-This file is the canonical reconstructed project handout for Spring 2025
-Artificial Intelligence.
+This file is the canonical project handout for Spring 2025 Artificial
+Intelligence.
 
 ## Summary
 
@@ -27,11 +27,10 @@ Build a private web application that:
 - Text-to-speech
 - Azure-backed deployment or infrastructure
 
-## What the Surviving Evidence Suggests
+## Evaluation Notes
 
-The grading notes and presentation notes indicate that this project was judged
-substantially on integration and infrastructure, not only on model demos.
-Common failure points included:
+This project is judged substantially on integration and infrastructure, not
+only on model demos. Common failure points are:
 
 - no working fully agentic component
 - no working cloned voice end-to-end
@@ -40,7 +39,7 @@ Common failure points included:
 
 ## Sample Test Prompts
 
-Recovered sample prompts included:
+Sample prompts include:
 
 - "Wolf Story by William McCleery"
 - "The Dolls' House by Rumer Godden"
@@ -54,12 +53,10 @@ and vague natural-language descriptions.
 
 ## Deployment
 
-The surviving notes strongly suggest that Azure deployment was part of the
-intended project scope, even though not every student completed that part.
+Students will deploy their site to Azure.
 
 ## Note on Public Framing
 
 For a public rebuilt course site, the retrieval component is described here in
 lawful terms. If you want a historically literal private note for your own
 records, keep that in the reconstruction materials rather than the public site.
-

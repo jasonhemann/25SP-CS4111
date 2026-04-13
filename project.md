@@ -27,11 +27,10 @@ Build a private web application that:
 - Text-to-speech
 - Azure-backed deployment or infrastructure
 
-## What the Surviving Evidence Suggests
+## Evaluation Notes
 
-The grading notes and presentation notes indicate that this project was judged
-substantially on integration and infrastructure, not only on model demos.
-Common failure points included:
+This project is judged substantially on integration and infrastructure, not
+only on model demos. Common failure points are:
 
 - no working fully agentic component
 - no working cloned voice end-to-end
@@ -40,7 +39,7 @@ Common failure points included:
 
 ## Sample Test Prompts
 
-Sample prompts included:
+Sample prompts include:
 
 - "Wolf Story by William McCleery"
 - "The Dolls' House by Rumer Godden"
@@ -54,8 +53,7 @@ and vague natural-language descriptions.
 
 ## Deployment
 
-Azure deployment appears to have been part of the intended project scope, even
-though not every student completed that part.
+Students will deploy their site to Azure.
 
 ## Repository Copy
 
