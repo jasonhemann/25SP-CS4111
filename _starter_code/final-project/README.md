@@ -48,7 +48,7 @@ Sample prompts include:
 - "Emil is sedated with laced chocolate and robbed on a train..."
 - "15th century Poland, alchemy, the Philosopher's Stone..."
 
-These make it clear that the system was supposed to handle both exact titles
+These examples make it clear that the system should handle both exact titles
 and vague natural-language descriptions.
 
 ## Deployment

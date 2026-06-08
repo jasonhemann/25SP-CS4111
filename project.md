@@ -11,10 +11,9 @@ Build a private web application that:
 2. transcribes the request,
 3. decides whether the description is specific enough to identify the target,
 4. asks a follow-up question when needed,
-5. retrieves the text from an authorized corpus or course-provided backend,
-6. safely unpacks or normalizes the retrieved file, and
-7. reads the result aloud using the student's own synthesized voice or a close
-   approved approximation.
+5. retrieves the text in an unable-to-be-anticipated format via an IRC channel
+6. dynamically, decides how to safely unpacks or normalizes the retrieved file(s), and
+7. reads the result aloud using the student's own synthesized voice.
 
 ## Expected Components
 
@@ -23,6 +22,7 @@ Build a private web application that:
 - LLM or equivalent reasoning component for disambiguation
 - Clarification dialogue
 - Retrieval backend
+- IRC interaction
 - Safe extraction or normalization pipeline
 - Text-to-speech
 - Azure-backed deployment or infrastructure
@@ -48,12 +48,12 @@ Sample prompts include:
 - "Emil is sedated with laced chocolate and robbed on a train..."
 - "15th century Poland, alchemy, the Philosopher's Stone..."
 
-These make it clear that the system was supposed to handle both exact titles
-and vague natural-language descriptions.
+The system must handle both exact titles and vague natural-language
+descriptions.
 
 ## Deployment
 
-Students will deploy their site to Azure.
+Students will deploy their pipelines using Azure.
 
 ## Repository Copy
 

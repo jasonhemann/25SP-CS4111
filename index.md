@@ -10,7 +10,7 @@ This site contains materials for Spring 2025 Artificial Intelligence.
 
 ## Course
 
-Artificial intelligence in this course was treated broadly: historical AI,
+Artificial intelligence in this course is treated broadly: historical AI,
 logic and relational programming, grammars and interpreters, program
 synthesis, staging, neural learning, Prolog, search/game-playing, and ASP,
 with an emphasis on building complete systems rather than only studying models

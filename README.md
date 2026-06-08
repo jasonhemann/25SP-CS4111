@@ -1,4 +1,4 @@
-# Jason Hemann 1114 Course Website
+# Jason Hemann CS4111 Course Website
 
 ## Prerequisites 
 
@@ -34,4 +34,3 @@ This calculation makes several key assumptions, many of which do not generalize.
 3. I believe it assumes that DST always begins on a Sunday, between weeks, and that the semester never starts *during* the Fall back.
 
 ## based on [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
-
