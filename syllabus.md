@@ -77,7 +77,7 @@ This course assumes the following background:
   language to work through documentation, libraries, debugging, and deployment
   issues across the software lifecycle.
 
-This is not a "prompting tricks" course. It assumes enough technical maturity
+This course assumes students have or will develop enough technical maturity
 to move back and forth between theory, research papers, programming
 languages, cloud services, and actual implementation work.
 
@@ -111,6 +111,7 @@ assignments.
 - one student paper presentation
 - Azure pre-learning modules
 - two miniKanren assignments
+- voice cloning in-class assessment
 - three student presentation evaluations
 - one Prolog assignment
 - one final project
